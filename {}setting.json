@@ -1,0 +1,5 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultformatter": "esbenp.prettier-vscode",
+    "liveServer.settings.port": 5501
+}
