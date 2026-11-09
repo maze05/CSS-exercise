@@ -1,36 +1,15 @@
-
-
-
-/* General page */
-
 body {
 
-    font-family: Arial, sans-serif;
-
-    margin: 0;
-
-    padding: 20px;
-
-    background-color: white;
-
-    color: #222;
-
-}
- 
-/* Main container */
-
-.content {
-
-    width: 92%;
-
-    margin: 15px auto;
+    font-family: Arial, Helvetica, sans-serif;
 
     background-color: #d3d3d3;
 
+    margin: 0;
+
+    padding: 8px;
+
 }
  
-/* Header */
-
 header {
 
     background-color: blue;
@@ -39,74 +18,80 @@ header {
 
     text-align: center;
 
-    padding: 5px;
+    padding: 10px;
 
 }
  
 header h1 {
 
-    font-size: 28px;
-
     margin: 0;
+
+    font-size: 28px;
 
 }
  
-/* Biography section */
+.content {
 
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 20px;
+
+}
+ 
 .biography {
 
     background-color: white;
 
-    margin: 20px;
-
     padding: 20px;
-
-    border-radius: 8px;
-
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-
-}
- 
-/* Profile image */
-
-.biography img {
-
-    width: 155px;
-
-    height: 205px;
-
-    object-fit: cover;
-
-    display: block;
 
     margin-bottom: 20px;
 
+    border-radius: 8px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
  
-/* Achievements section */
+.biography img {
 
+    height: 220px;
+
+    width: auto;
+
+    margin-bottom: 10px;
+
+}
+ 
 .achievements {
 
     background-color: white;
 
-    margin: 20px;
-
     padding: 20px;
+
+    margin-bottom: 20px;
 
     border-radius: 8px;
 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
  
-.achievements ul {
+h2 {
 
-    line-height: 1.5;
+    font-size: 24px;
 
 }
  
-/* Footer */
+p, li{
 
+    font-size: 16px;
+
+    line-height: 1.6;
+
+}
+ 
 footer {
 
     background-color: blue;
@@ -115,22 +100,13 @@ footer {
 
     text-align: center;
 
-    padding: 15px;
-
-    font-size: 14px;
+    padding: 10px;
 
 }
  
-/* Hover effect */
+footer p {
 
-.biography:hover,
-
-.achievements:hover {
-
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-
-    transition: 0.3s;
+    margin: 0;
 
 }
-
  
